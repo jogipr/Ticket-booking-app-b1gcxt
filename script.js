@@ -1,6 +1,6 @@
 function creatSeats() {
   let seats = [];
-  for (let i = 0; i <= 20; i++) {
+  for (let i = 0; i <= 100; i++) {
     seats.push({
       id: i,
       booked: false,
