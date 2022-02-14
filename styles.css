@@ -1,0 +1,16 @@
+body {
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seat {
+  background: orange;
+  margin: 2px;
+  padding: 6px;
+}
+
+.unbooked{
+  background: rebeccapurple;
+}
