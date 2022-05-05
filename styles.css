@@ -1,5 +1,8 @@
 h1 {
-  background: orange;
+  background: #eb5353;
+  padding: 16px;
+  border-radius: 4px;
+  color: white;
 }
 .container {
   display: flex;
@@ -8,14 +11,35 @@ h1 {
 }
 
 .seat {
-  background: orange;
+  background: #f66b0e;
   margin: 2px;
   padding: 6px;
   width: 40px;
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .unbooked {
-  background: rebeccapurple;
+  background: #f9d923;
+}
+
+button {
+  background: #eb5353;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  position: absolute;
+  left: 40%;
+}
+
+.booked-ticket{
+  display: inline-block;
+  background: #eb5353;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  min-width: 100px;
+  height: 16px;
 }
